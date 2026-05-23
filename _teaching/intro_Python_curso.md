@@ -21,7 +21,7 @@ Crash Course introductorio de programación en Python aplicado a ciencias bioló
 
 ## Materiales
 
-- [Clase 1 — Introducción a Python](#)
+- [Clase 1 — Introducción a Python](https://drive.google.com/file/d/1lRdYiytKlRDg1H8aTz9Rdhsle_gpplRA/view?usp=sharing)
 - [Clase 2 — Operadores, Estructuras de Control y Funciones](#)
 - [Clase 3 — Manipulación y visualización de datos](#)
 
