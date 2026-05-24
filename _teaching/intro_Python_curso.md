@@ -23,7 +23,7 @@ Crash Course introductorio de programación en Python aplicado a ciencias bioló
 
 - [Clase 1 — Introducción a Python](https://colab.research.google.com/drive/1zDZg-AJOfFq6GuKpA8sUKGiw9JKS0FuL?usp=drive_link)
 - [Clase 2 — Operadores, Estructuras de Control y Funciones](#)
-- [Clase 3 — Manipulación y visualización de datos](#)
+- [Clase 3 — Arreglos, Manipulación y Visualización de Datos](#)
 
 ## Repositorio
 
