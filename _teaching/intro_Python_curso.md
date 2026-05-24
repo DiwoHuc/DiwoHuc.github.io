@@ -13,7 +13,7 @@ Crash Course introductorio de programación en Python aplicado a ciencias bioló
 
 - Fundamentos de programación en Python
 - Anaconda, IDEs de Python y sus usos
-- Librerías importances en ciencias biológicas
+- Librerías importantes en ciencias biológicas
 - Manipulación y visualización de datos
 - Análisis exploratorio de datos
 - Análisis de datos biológicos
