@@ -1,0 +1,47 @@
+/* Terminal dark style */
+
+body {
+  background: #000000 !important;
+  color: #d6d6d6 !important;
+  font-family: "Courier New", "Consolas", monospace !important;
+}
+
+a {
+  color: #00ff88 !important;
+}
+
+a:hover {
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  color: #ffffff !important;
+  font-family: "Courier New", "Consolas", monospace !important;
+}
+
+.masthead,
+.greedy-nav,
+.sidebar,
+.page__footer,
+.page,
+.archive,
+.initial-content {
+  background: #000000 !important;
+  color: #d6d6d6 !important;
+}
+
+.greedy-nav a,
+.sidebar a,
+.page__footer a {
+  color: #00ff88 !important;
+}
+
+code,
+pre,
+.highlight {
+  background: #111111 !important;
+  color: #00ff88 !important;
+  font-family: "Courier New", "Consolas", monospace !important;
+}
