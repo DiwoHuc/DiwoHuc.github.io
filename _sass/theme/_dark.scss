@@ -1,59 +1,123 @@
-/* Terminal dark style */
+/* ==========================================================================
+   TERMINAL THEME - DARK VERSION
+   ========================================================================== */
 
-body {
-  background: #000000 !important;
-  color: #d6d6d6 !important;
-  font-family: "Courier New", "Consolas", monospace !important;
+/* Color codes used for the theme */
+$primary-color              : #00ff88;
+$background                 : #000000;
+$background-light           : #0d0d0d;
+$background-lighter         : #1a1a1a;
+$text                       : #d6d6d6;
+$text-muted                 : #9ca3af;
+$link                       : #00ff88;
+$link-dark                  : #ffffff;
+$link-light                 : #66ffbb;
+$footer                     : #000000;
+$border                     : #222222;
+$border-light               : #333333;
+$selection-bg               : #003d22;
+$selection-text             : #ffffff;
+
+/* Color codes used for the site */
+$danger-color               : #ff6c60;
+$info-color                 : #00ccff;
+$notice-color               : #d6d6d6;
+$success-color              : #00ff88;
+$warning-color              : #e9c062;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : none;
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark terminal theme for the site */
+html[data-theme="dark"] {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #{$background};
+  --global-footer-bg-color            : #{$footer};
+  --global-border-color               : #{$border};
+  --global-dark-border-color          : #{$border-light};
+  --global-code-background-color      : #{$background-light};
+  --global-code-text-color            : #{$primary-color};
+  --global-fig-caption-color          : #{$text-muted};
+  --global-link-color                 : #{$link};
+  --global-link-color-hover           : #{$link-dark};
+  --global-link-color-visited         : #{$link-light};
+  --global-masthead-link-color        : #{$text};
+  --global-masthead-link-color-hover  : #{$primary-color};
+  --global-text-color                 : #{$text};
+  --global-text-color-light           : #{$text-muted};
+  --global-thead-color                : #{$background-lighter};
+  --global-toc-bg-color               : #{$background-light};
+  --global-selection-bg-color         : #{$selection-bg};
+  --global-selection-text-color       : #{$selection-text};
 }
 
-a {
-  color: #00ff88 !important;
+/* Console font */
+html[data-theme="dark"] body,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .sidebar {
+  font-family: "Consolas", "Courier New", monospace;
 }
 
-a:hover {
-  color: #ffffff !important;
+/* Force black backgrounds */
+html[data-theme="dark"] body,
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .page__footer,
+html[data-theme="dark"] .initial-content,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .archive {
+  background-color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6,
-.page__title,
-.archive__item-title {
-  color: #ffffff !important;
-  font-family: "Courier New", "Consolas", monospace !important;
+/* Text selection */
+html[data-theme="dark"] ::selection {
+  background-color: var(--global-selection-bg-color);
+  color: var(--global-selection-text-color);
 }
 
-.masthead,
-.greedy-nav,
-.sidebar,
-.page__footer,
-.page,
-.archive,
-.initial-content {
-  background: #000000 !important;
-  color: #d6d6d6 !important;
+html[data-theme="dark"] ::-moz-selection {
+  background-color: var(--global-selection-bg-color);
+  color: var(--global-selection-text-color);
 }
 
-.greedy-nav a,
-.sidebar a,
-.page__footer a {
-  color: #00ff88 !important;
-}
+/* Notices */
+html[data-theme="dark"] {
+  .page__content {
+    .notice,
+    .notice--primary,
+    .notice--info,
+    .notice--warning,
+    .notice--success {
+      background-color: #0d0d0d;
+      color: #{$text};
+      border-color: #{$border-light};
+    }
 
-code,
-pre,
-.highlight {
-  background: #111111 !important;
-  color: #00ff88 !important;
-  font-family: "Courier New", "Consolas", monospace !important;
-}
+    .notice--danger {
+      background-color: mix($background, $danger-color, 85%);
+      color: #{$text};
+      border-color: #{$danger-color};
+    }
+  }
 
-:root {
-  --global-base-color: #000000;
-  --global-bg-color: #000000;
-  --global-text-color: #d6d6d6;
-  --global-text-color-light: #9ca3af;
-  --global-border-color: #222222;
-  --global-link-color: #00ff88;
-  --global-link-color-hover: #ffffff;
-  --global-masthead-link-color: #00ff88;
-  --global-masthead-link-color-hover: #ffffff;
+  .page__footer {
+    color: #{$text-muted};
+  }
 }
