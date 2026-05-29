@@ -1,21 +1,22 @@
 /* ==========================================================================
    CONTRAST THEME - DARK VERSION
    ========================================================================== */
+
 /* Color codes used for the theme */
-$primary-color              : #ff6c60;
+$primary-color              : #00ff88;
 $background                 : #000000;
-$background-light           : #1a1a1a;
-$background-lighter         : #2a2a2a;
-$text                      : #ffffff;
-$text-muted                : #d9d9d9;
-$link                      : #96cbfe;
-$link-dark                 : #c6c5fe;
-$link-light                : #ff73fd;
-$footer                    : #000000;
-$border                    : #4d4d4d;
-$border-light              : #666666;
-$selection-bg              : #264f78;
-$selection-text            : #ffffff;
+$background-light           : #0d0d0d;
+$background-lighter         : #1a1a1a;
+$text                       : #d4d4d4;
+$text-muted                 : #8a8a8a;
+$link                       : #00ff88;
+$link-dark                  : #ffffff;
+$link-light                 : #66ffbb;
+$footer                     : #000000;
+$border                     : #222222;
+$border-light               : #333333;
+$selection-bg               : #003d22;
+$selection-text             : #ffffff;
 
 /* Color codes used for the site */
 $danger-color               : #ff6c60;
@@ -116,4 +117,20 @@ html[data-theme="dark"] {
   .page__footer {
     color: #{$text};
   }
+}
+
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .sidebar {
+  font-family: "Consolas", "Courier New", monospace;
 }
