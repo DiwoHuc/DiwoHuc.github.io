@@ -45,3 +45,15 @@ pre,
   color: #00ff88 !important;
   font-family: "Courier New", "Consolas", monospace !important;
 }
+
+:root {
+  --global-base-color: #000000;
+  --global-bg-color: #000000;
+  --global-text-color: #d6d6d6;
+  --global-text-color-light: #9ca3af;
+  --global-border-color: #222222;
+  --global-link-color: #00ff88;
+  --global-link-color-hover: #ffffff;
+  --global-masthead-link-color: #00ff88;
+  --global-masthead-link-color-hover: #ffffff;
+}
