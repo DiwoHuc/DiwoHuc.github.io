@@ -13,6 +13,11 @@ Hands-on Crash Course intermedio de programación en R aplicado a ciencias biol�
 ## Contenidos
 
 - Fundamentos de programación en R
+- Tidyverse y otras librerías importantes
+- Control de flujo
+- Funciones
+- Manipulación y visualización de datos
+- Bioconductor
 
 ## Materiales
 
