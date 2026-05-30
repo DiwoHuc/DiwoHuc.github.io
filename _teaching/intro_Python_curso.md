@@ -2,7 +2,7 @@
 title: "Introducción a Python para Ciencias Biológicas"
 collection: teaching
 permalink: /teaching/python-biologia/
-type: "Course"
+type: "Workshop"
 venue: "Online"
 date: 2026-01-01
 ---
