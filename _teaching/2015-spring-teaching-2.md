@@ -1,20 +1,19 @@
 ---
-title: "Teaching experience 2"
+title: "R Intermedio para Ciencias Biológicas"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+permalink: /teaching/r-biologia
+venue: "Online"
+date: 2026-01-01
+location: "Costa Rica"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Hands-on Crash Course intermedio de programación en R aplicado a ciencias biológicas.
 
-Heading 1
-======
+## Contenidos
 
-Heading 2
-======
+- Fundamentos de programación en R
 
-Heading 3
-======
+## Materiales
+
+- [Clase 1 — Introducción a R](#)
