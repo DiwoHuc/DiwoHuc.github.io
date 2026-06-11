@@ -67,3 +67,14 @@
   position: relative;
   z-index: 2;
 }
+
+.masthead {
+  position: relative;
+  z-index: 3;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.masthead__inner-wrap {
+  padding: 0.5em 1em !important;
+}
