@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ==========================
+   Particle background
+   ========================== */
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.initial-content,
+.page,
+.archive,
+.page__inner-wrap,
+.masthead,
+.page__footer {
+  position: relative;
+  z-index: 1;
+}
