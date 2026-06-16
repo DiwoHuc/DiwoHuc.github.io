@@ -78,3 +78,76 @@ body {
 #main {
   padding-top: 70px;
 }
+
+/* ==========================================
+   CUSTOM SIDEBAR - TERMINAL STYLE
+   ========================================== */
+
+/* Ocultar avatar */
+.author__avatar {
+  display: none !important;
+}
+
+/* Contenedor */
+.author__content {
+  padding-top: 1rem;
+}
+
+/* Nombre */
+.sidebar .author__name {
+  font-family: "Courier New", monospace !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Bio */
+.author__bio {
+  font-family: "Courier New", monospace !important;
+  font-size: 1.1rem !important;
+  color: #8ee35f !important;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  border-right: 2px solid #8ee35f;
+
+  width: fit-content;
+
+  animation:
+    typing 3s steps(30, end),
+    blink 0.8s step-end infinite;
+}
+
+/* Enlaces */
+.author__urls {
+  margin-top: 2rem;
+}
+
+.author__urls li {
+  margin-bottom: 0.8rem;
+}
+
+.author__urls a {
+  font-family: "Courier New", monospace;
+}
+
+/* Cursor terminal */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Escritura */
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+
+  to {
+    max-width: 100%;
+  }
+}
