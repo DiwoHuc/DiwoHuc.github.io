@@ -17,7 +17,7 @@ Hands-on Crash Course introductorio de programación en Python aplicado a cienci
 - Control de flujo
 - Funciones
 - Manejo de excepciones
-- Arreglos
+- Arreglos, NumPy y Pandas
 - Manipulación y visualización de datos
 - Análisis exploratorio de datos
 - Análisis de datos biológicos
