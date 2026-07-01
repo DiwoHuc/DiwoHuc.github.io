@@ -13,7 +13,8 @@ Hands-on Crash Course introductorio de programación en Python aplicado a cienci
 
 - Fundamentos de programación en Python
 - Anaconda, IDEs de Python y sus usos
-- Librerías importantes en ciencias biológicas
+- Paquetes importantes en ciencias biológicas
+- Operadores
 - Control de flujo
 - Funciones
 - Manejo de excepciones
@@ -21,6 +22,7 @@ Hands-on Crash Course introductorio de programación en Python aplicado a cienci
 - Manipulación y visualización de datos
 - Análisis exploratorio de datos
 - Análisis de datos biológicos
+- Simulación y remuestreo
 - Introducción al Machine Learning
 - Modelos de agrupamiento
 - Modelos de clasificación
